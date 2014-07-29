@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52193E0819879C86009EB4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0719879C86009EB4BB /* Foundation.framework */; };
+		52193E0A19879C86009EB4BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0919879C86009EB4BB /* CoreGraphics.framework */; };
+		52193E0C19879C86009EB4BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0B19879C86009EB4BB /* UIKit.framework */; };
+		52193E1219879C86009EB4BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52193E1019879C86009EB4BB /* InfoPlist.strings */; };
+		52193E1419879C86009EB4BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E1319879C86009EB4BB /* main.m */; };
+		52193E1819879C86009EB4BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E1719879C86009EB4BB /* AppDelegate.m */; };
+		52193E1B19879C86009EB4BB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52193E1919879C86009EB4BB /* Main_iPhone.storyboard */; };
+		52193E1E19879C86009EB4BB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52193E1C19879C86009EB4BB /* Main_iPad.storyboard */; };
+		52193E2119879C86009EB4BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E2019879C86009EB4BB /* ViewController.m */; };
+		52193E2319879C86009EB4BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52193E2219879C86009EB4BB /* Images.xcassets */; };
+		52193E2A19879C86009EB4BB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E2919879C86009EB4BB /* XCTest.framework */; };
+		52193E2B19879C86009EB4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0719879C86009EB4BB /* Foundation.framework */; };
+		52193E2C19879C86009EB4BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0B19879C86009EB4BB /* UIKit.framework */; };
+		52193E3419879C86009EB4BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52193E3219879C86009EB4BB /* InfoPlist.strings */; };
+		52193E3619879C86009EB4BB /* Fresvii_SDK_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E3519879C86009EB4BB /* Fresvii_SDK_exampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52193E2D19879C86009EB4BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52193DFC19879C86009EB4BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52193E0319879C86009EB4BB;
+			remoteInfo = "Fresvii-SDK-example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52193E0419879C86009EB4BB /* Fresvii-SDK-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fresvii-SDK-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52193E0719879C86009EB4BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52193E0919879C86009EB4BB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52193E0B19879C86009EB4BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52193E0F19879C86009EB4BB /* Fresvii-SDK-example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fresvii-SDK-example-Info.plist"; sourceTree = "<group>"; };
+		52193E1119879C86009EB4BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52193E1319879C86009EB4BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52193E1519879C86009EB4BB /* Fresvii-SDK-example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fresvii-SDK-example-Prefix.pch"; sourceTree = "<group>"; };
+		52193E1619879C86009EB4BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52193E1719879C86009EB4BB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52193E1A19879C86009EB4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		52193E1D19879C86009EB4BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		52193E1F19879C86009EB4BB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52193E2019879C86009EB4BB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52193E2219879C86009EB4BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52193E2819879C86009EB4BB /* Fresvii-SDK-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fresvii-SDK-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52193E2919879C86009EB4BB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52193E3119879C86009EB4BB /* Fresvii-SDK-exampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fresvii-SDK-exampleTests-Info.plist"; sourceTree = "<group>"; };
+		52193E3319879C86009EB4BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52193E3519879C86009EB4BB /* Fresvii_SDK_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fresvii_SDK_exampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52193E0119879C86009EB4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52193E0A19879C86009EB4BB /* CoreGraphics.framework in Frameworks */,
+				52193E0C19879C86009EB4BB /* UIKit.framework in Frameworks */,
+				52193E0819879C86009EB4BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52193E2519879C86009EB4BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52193E2A19879C86009EB4BB /* XCTest.framework in Frameworks */,
+				52193E2C19879C86009EB4BB /* UIKit.framework in Frameworks */,
+				52193E2B19879C86009EB4BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52193DFB19879C86009EB4BB = {
+			isa = PBXGroup;
+			children = (
+				52193E0D19879C86009EB4BB /* Fresvii-SDK-example */,
+				52193E2F19879C86009EB4BB /* Fresvii-SDK-exampleTests */,
+				52193E0619879C86009EB4BB /* Frameworks */,
+				52193E0519879C86009EB4BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52193E0519879C86009EB4BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52193E0419879C86009EB4BB /* Fresvii-SDK-example.app */,
+				52193E2819879C86009EB4BB /* Fresvii-SDK-exampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52193E0619879C86009EB4BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52193E0719879C86009EB4BB /* Foundation.framework */,
+				52193E0919879C86009EB4BB /* CoreGraphics.framework */,
+				52193E0B19879C86009EB4BB /* UIKit.framework */,
+				52193E2919879C86009EB4BB /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52193E0D19879C86009EB4BB /* Fresvii-SDK-example */ = {
+			isa = PBXGroup;
+			children = (
+				52193E1619879C86009EB4BB /* AppDelegate.h */,
+				52193E1719879C86009EB4BB /* AppDelegate.m */,
+				52193E1919879C86009EB4BB /* Main_iPhone.storyboard */,
+				52193E1C19879C86009EB4BB /* Main_iPad.storyboard */,
+				52193E1F19879C86009EB4BB /* ViewController.h */,
+				52193E2019879C86009EB4BB /* ViewController.m */,
+				52193E2219879C86009EB4BB /* Images.xcassets */,
+				52193E0E19879C86009EB4BB /* Supporting Files */,
+			);
+			path = "Fresvii-SDK-example";
+			sourceTree = "<group>";
+		};
+		52193E0E19879C86009EB4BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52193E0F19879C86009EB4BB /* Fresvii-SDK-example-Info.plist */,
+				52193E1019879C86009EB4BB /* InfoPlist.strings */,
+				52193E1319879C86009EB4BB /* main.m */,
+				52193E1519879C86009EB4BB /* Fresvii-SDK-example-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52193E2F19879C86009EB4BB /* Fresvii-SDK-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				52193E3519879C86009EB4BB /* Fresvii_SDK_exampleTests.m */,
+				52193E3019879C86009EB4BB /* Supporting Files */,
+			);
+			path = "Fresvii-SDK-exampleTests";
+			sourceTree = "<group>";
+		};
+		52193E3019879C86009EB4BB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52193E3119879C86009EB4BB /* Fresvii-SDK-exampleTests-Info.plist */,
+				52193E3219879C86009EB4BB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52193E0319879C86009EB4BB /* Fresvii-SDK-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52193E3919879C86009EB4BB /* Build configuration list for PBXNativeTarget "Fresvii-SDK-example" */;
+			buildPhases = (
+				52193E0019879C86009EB4BB /* Sources */,
+				52193E0119879C86009EB4BB /* Frameworks */,
+				52193E0219879C86009EB4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fresvii-SDK-example";
+			productName = "Fresvii-SDK-example";
+			productReference = 52193E0419879C86009EB4BB /* Fresvii-SDK-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52193E2719879C86009EB4BB /* Fresvii-SDK-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52193E3C19879C86009EB4BB /* Build configuration list for PBXNativeTarget "Fresvii-SDK-exampleTests" */;
+			buildPhases = (
+				52193E2419879C86009EB4BB /* Sources */,
+				52193E2519879C86009EB4BB /* Frameworks */,
+				52193E2619879C86009EB4BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52193E2E19879C86009EB4BB /* PBXTargetDependency */,
+			);
+			name = "Fresvii-SDK-exampleTests";
+			productName = "Fresvii-SDK-exampleTests";
+			productReference = 52193E2819879C86009EB4BB /* Fresvii-SDK-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52193DFC19879C86009EB4BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "tetsu@fresvii.com";
+				TargetAttributes = {
+					52193E2719879C86009EB4BB = {
+						TestTargetID = 52193E0319879C86009EB4BB;
+					};
+				};
+			};
+			buildConfigurationList = 52193DFF19879C86009EB4BB /* Build configuration list for PBXProject "Fresvii-SDK-example" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52193DFB19879C86009EB4BB;
+			productRefGroup = 52193E0519879C86009EB4BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52193E0319879C86009EB4BB /* Fresvii-SDK-example */,
+				52193E2719879C86009EB4BB /* Fresvii-SDK-exampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52193E0219879C86009EB4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52193E1E19879C86009EB4BB /* Main_iPad.storyboard in Resources */,
+				52193E2319879C86009EB4BB /* Images.xcassets in Resources */,
+				52193E1B19879C86009EB4BB /* Main_iPhone.storyboard in Resources */,
+				52193E1219879C86009EB4BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52193E2619879C86009EB4BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52193E3419879C86009EB4BB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52193E0019879C86009EB4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52193E2119879C86009EB4BB /* ViewController.m in Sources */,
+				52193E1819879C86009EB4BB /* AppDelegate.m in Sources */,
+				52193E1419879C86009EB4BB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52193E2419879C86009EB4BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52193E3619879C86009EB4BB /* Fresvii_SDK_exampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52193E2E19879C86009EB4BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52193E0319879C86009EB4BB /* Fresvii-SDK-example */;
+			targetProxy = 52193E2D19879C86009EB4BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52193E1019879C86009EB4BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52193E1119879C86009EB4BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		52193E1919879C86009EB4BB /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52193E1A19879C86009EB4BB /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		52193E1C19879C86009EB4BB /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52193E1D19879C86009EB4BB /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		52193E3219879C86009EB4BB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52193E3319879C86009EB4BB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52193E3719879C86009EB4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52193E3819879C86009EB4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52193E3A19879C86009EB4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fresvii-SDK-example/Fresvii-SDK-example-Prefix.pch";
+				INFOPLIST_FILE = "Fresvii-SDK-example/Fresvii-SDK-example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52193E3B19879C86009EB4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fresvii-SDK-example/Fresvii-SDK-example-Prefix.pch";
+				INFOPLIST_FILE = "Fresvii-SDK-example/Fresvii-SDK-example-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		52193E3D19879C86009EB4BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fresvii-SDK-example.app/Fresvii-SDK-example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fresvii-SDK-example/Fresvii-SDK-example-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fresvii-SDK-exampleTests/Fresvii-SDK-exampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		52193E3E19879C86009EB4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Fresvii-SDK-example.app/Fresvii-SDK-example";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Fresvii-SDK-example/Fresvii-SDK-example-Prefix.pch";
+				INFOPLIST_FILE = "Fresvii-SDK-exampleTests/Fresvii-SDK-exampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52193DFF19879C86009EB4BB /* Build configuration list for PBXProject "Fresvii-SDK-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52193E3719879C86009EB4BB /* Debug */,
+				52193E3819879C86009EB4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52193E3919879C86009EB4BB /* Build configuration list for PBXNativeTarget "Fresvii-SDK-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52193E3A19879C86009EB4BB /* Debug */,
+				52193E3B19879C86009EB4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52193E3C19879C86009EB4BB /* Build configuration list for PBXNativeTarget "Fresvii-SDK-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52193E3D19879C86009EB4BB /* Debug */,
+				52193E3E19879C86009EB4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52193DFC19879C86009EB4BB /* Project object */;
+}
