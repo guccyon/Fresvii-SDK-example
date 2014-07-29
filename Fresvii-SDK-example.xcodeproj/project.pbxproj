@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3DC6C8E6457340B1ABE78143 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBE6847975A34E93805C3D99 /* libPods.a */; };
 		52193E0819879C86009EB4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0719879C86009EB4BB /* Foundation.framework */; };
 		52193E0A19879C86009EB4BB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0919879C86009EB4BB /* CoreGraphics.framework */; };
 		52193E0C19879C86009EB4BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0B19879C86009EB4BB /* UIKit.framework */; };
@@ -22,6 +23,12 @@
 		52193E2C19879C86009EB4BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52193E0B19879C86009EB4BB /* UIKit.framework */; };
 		52193E3419879C86009EB4BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52193E3219879C86009EB4BB /* InfoPlist.strings */; };
 		52193E3619879C86009EB4BB /* Fresvii_SDK_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E3519879C86009EB4BB /* Fresvii_SDK_exampleTests.m */; };
+		52193E4719879F93009EB4BB /* AppDelegate+Fresvii.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E4219879F93009EB4BB /* AppDelegate+Fresvii.m */; };
+		52193E4819879F93009EB4BB /* AppDelegate+Fresvii.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E4219879F93009EB4BB /* AppDelegate+Fresvii.m */; };
+		52193E4919879F93009EB4BB /* FGCAutoLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E4419879F93009EB4BB /* FGCAutoLogin.m */; };
+		52193E4A19879F93009EB4BB /* FGCAutoLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E4419879F93009EB4BB /* FGCAutoLogin.m */; };
+		52193E4B19879F93009EB4BB /* FGCPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E4619879F93009EB4BB /* FGCPush.m */; };
+		52193E4C19879F93009EB4BB /* FGCPush.m in Sources */ = {isa = PBXBuildFile; fileRef = 52193E4619879F93009EB4BB /* FGCPush.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,14 @@
 		52193E3119879C86009EB4BB /* Fresvii-SDK-exampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Fresvii-SDK-exampleTests-Info.plist"; sourceTree = "<group>"; };
 		52193E3319879C86009EB4BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		52193E3519879C86009EB4BB /* Fresvii_SDK_exampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fresvii_SDK_exampleTests.m; sourceTree = "<group>"; };
+		52193E4119879F93009EB4BB /* AppDelegate+Fresvii.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Fresvii.h"; sourceTree = "<group>"; };
+		52193E4219879F93009EB4BB /* AppDelegate+Fresvii.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Fresvii.m"; sourceTree = "<group>"; };
+		52193E4319879F93009EB4BB /* FGCAutoLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGCAutoLogin.h; sourceTree = "<group>"; };
+		52193E4419879F93009EB4BB /* FGCAutoLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGCAutoLogin.m; sourceTree = "<group>"; };
+		52193E4519879F93009EB4BB /* FGCPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGCPush.h; sourceTree = "<group>"; };
+		52193E4619879F93009EB4BB /* FGCPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGCPush.m; sourceTree = "<group>"; };
+		DA523F8CD57B46ECBD360846 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		FBE6847975A34E93805C3D99 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +80,7 @@
 				52193E0A19879C86009EB4BB /* CoreGraphics.framework in Frameworks */,
 				52193E0C19879C86009EB4BB /* UIKit.framework in Frameworks */,
 				52193E0819879C86009EB4BB /* Foundation.framework in Frameworks */,
+				3DC6C8E6457340B1ABE78143 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +104,7 @@
 				52193E2F19879C86009EB4BB /* Fresvii-SDK-exampleTests */,
 				52193E0619879C86009EB4BB /* Frameworks */,
 				52193E0519879C86009EB4BB /* Products */,
+				DA523F8CD57B46ECBD360846 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,6 +124,7 @@
 				52193E0919879C86009EB4BB /* CoreGraphics.framework */,
 				52193E0B19879C86009EB4BB /* UIKit.framework */,
 				52193E2919879C86009EB4BB /* XCTest.framework */,
+				FBE6847975A34E93805C3D99 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -114,6 +132,7 @@
 		52193E0D19879C86009EB4BB /* Fresvii-SDK-example */ = {
 			isa = PBXGroup;
 			children = (
+				52193E4019879F93009EB4BB /* Classes */,
 				52193E1619879C86009EB4BB /* AppDelegate.h */,
 				52193E1719879C86009EB4BB /* AppDelegate.m */,
 				52193E1919879C86009EB4BB /* Main_iPhone.storyboard */,
@@ -155,6 +174,19 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		52193E4019879F93009EB4BB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				52193E4119879F93009EB4BB /* AppDelegate+Fresvii.h */,
+				52193E4219879F93009EB4BB /* AppDelegate+Fresvii.m */,
+				52193E4319879F93009EB4BB /* FGCAutoLogin.h */,
+				52193E4419879F93009EB4BB /* FGCAutoLogin.m */,
+				52193E4519879F93009EB4BB /* FGCPush.h */,
+				52193E4619879F93009EB4BB /* FGCPush.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52193E3919879C86009EB4BB /* Build configuration list for PBXNativeTarget "Fresvii-SDK-example" */;
 			buildPhases = (
+				21206500D7E34CA2AF3B27D9 /* Check Pods Manifest.lock */,
 				52193E0019879C86009EB4BB /* Sources */,
 				52193E0119879C86009EB4BB /* Frameworks */,
 				52193E0219879C86009EB4BB /* Resources */,
+				72BCCFF23C3E469DBE3916EB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,14 +282,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21206500D7E34CA2AF3B27D9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72BCCFF23C3E469DBE3916EB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52193E0019879C86009EB4BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52193E4919879F93009EB4BB /* FGCAutoLogin.m in Sources */,
 				52193E2119879C86009EB4BB /* ViewController.m in Sources */,
+				52193E4B19879F93009EB4BB /* FGCPush.m in Sources */,
 				52193E1819879C86009EB4BB /* AppDelegate.m in Sources */,
 				52193E1419879C86009EB4BB /* main.m in Sources */,
+				52193E4719879F93009EB4BB /* AppDelegate+Fresvii.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +333,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52193E4C19879F93009EB4BB /* FGCPush.m in Sources */,
 				52193E3619879C86009EB4BB /* Fresvii_SDK_exampleTests.m in Sources */,
+				52193E4A19879F93009EB4BB /* FGCAutoLogin.m in Sources */,
+				52193E4819879F93009EB4BB /* AppDelegate+Fresvii.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +460,7 @@
 		};
 		52193E3A19879C86009EB4BB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA523F8CD57B46ECBD360846 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -400,6 +474,7 @@
 		};
 		52193E3B19879C86009EB4BB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA523F8CD57B46ECBD360846 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -470,6 +545,7 @@
 				52193E3B19879C86009EB4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52193E3C19879C86009EB4BB /* Build configuration list for PBXNativeTarget "Fresvii-SDK-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +554,7 @@
 				52193E3E19879C86009EB4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

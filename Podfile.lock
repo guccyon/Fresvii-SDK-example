@@ -1,0 +1,10 @@
+PODS:
+  - Fresvii-iOS-SDK (0.1.6)
+
+DEPENDENCIES:
+  - Fresvii-iOS-SDK (= 0.1.6)
+
+SPEC CHECKSUMS:
+  Fresvii-iOS-SDK: f2ab6f8376c28f2bc39bfd4ad428180866625e65
+
+COCOAPODS: 0.33.1

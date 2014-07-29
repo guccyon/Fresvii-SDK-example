@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#import <Fresvii/FGCViewComponents.h>
+#import <Fresvii/FGCAccount.h>
+#import "FGCAutoLogin.h"
 
 @interface ViewController ()
 
@@ -24,6 +27,26 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void) viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    if (![FGCAccount currentLoggedInUser].isExpiredSession) {
+        [self showFresviiView];
+    } else {
+        [[NSNotificationCenter defaultCenter] addObserver:self
+                                                 selector:@selector(showFresviiView)
+                                                     name:kFGCLoginCompleted
+                                                   object:nil];
+    }
+}
+
+- (void) showFresviiView
+{
+    for (UIView *view in self.view.subviews) { [view removeFromSuperview]; }
+    [FGCViewComponents presentTabBarControllerWithTarget:self animated:NO];
+    
 }
 
 @end

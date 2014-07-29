@@ -7,11 +7,17 @@
 //
 
 #import "AppDelegate.h"
+#import <Fresvii/Fresvii.h>
+#import "FGCPush.h"
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Fresvii startWithAppIdentifier:@"b85a21cb586d4a51bcac29111aba7f0f"];
+    
+    [FGCPush handleDidFinishLaunchingWithOptionsForRemoteNotification:launchOptions];
+    
     // Override point for customization after application launch.
     return YES;
 }
